@@ -1,4 +1,6 @@
 import Benefits from "@/components/Benefits";
+import Blog from "@/components/Blog";
+import Courses from "@/components/Courses";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -10,6 +12,8 @@ export default function Home() {
       <Header />
       <Hero/>
       <Benefits />
+      <Courses/>
+      <Blog/>
       <Footer />
     </div>
   );
