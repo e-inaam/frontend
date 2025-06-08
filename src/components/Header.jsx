@@ -10,6 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import Link from 'next/link';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -87,12 +88,16 @@ const Header = () => {
             </DropdownMenu>
 
             {/* Auth Buttons */}
+            <Link href="/SignIn">
             <Button variant="outline" size="sm">
               Sign In
             </Button>
+            </Link>
+            <Link href="/SignUp">
             <Button size="sm" className="bg-emerald-500 hover:bg-emerald-600">
               Sign Up
             </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
