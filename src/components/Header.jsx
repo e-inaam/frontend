@@ -80,7 +80,9 @@ const Header = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
+                <Link href="/Profile">
                 <DropdownMenuItem>My Profile</DropdownMenuItem>
+                </Link>
                 <DropdownMenuItem>My Courses</DropdownMenuItem>
                 <DropdownMenuItem>Settings</DropdownMenuItem>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
