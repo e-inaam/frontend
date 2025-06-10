@@ -19,7 +19,7 @@ const Header = () => {
   const navigationItems = [
     { label: 'Courses', href: '/courses' },
     { label: 'Categories', href: '/categories' },
-    { label: 'About', href: '/about' },
+    { label: 'About', href: '/About' },
   ];
 
   return (
