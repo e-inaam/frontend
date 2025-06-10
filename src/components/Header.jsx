@@ -18,7 +18,7 @@ const Header = () => {
 
   const navigationItems = [
     { label: 'Courses', href: '/Courses' },
-    { label: 'Categories', href: '/categories' },
+    { label: 'Categories', href: '/Categories' },
     { label: 'About', href: '/About' },
   ];
 
