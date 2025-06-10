@@ -17,7 +17,7 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const navigationItems = [
-    { label: 'Courses', href: '/courses' },
+    { label: 'Courses', href: '/Courses' },
     { label: 'Categories', href: '/categories' },
     { label: 'About', href: '/About' },
   ];
