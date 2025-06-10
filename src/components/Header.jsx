@@ -20,7 +20,6 @@ const Header = () => {
     { label: 'Courses', href: '/courses' },
     { label: 'Categories', href: '/categories' },
     { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -83,8 +82,12 @@ const Header = () => {
                 <Link href="/Profile">
                 <DropdownMenuItem>My Profile</DropdownMenuItem>
                 </Link>
+                <Link href="/Mycources">
                 <DropdownMenuItem>My Courses</DropdownMenuItem>
+                </Link>
+                <Link href="/Mysetting">
                 <DropdownMenuItem>Settings</DropdownMenuItem>
+                </Link>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>

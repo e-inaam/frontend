@@ -16,7 +16,7 @@ const Footer = () => {
                             <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
                                 <BookOpen className="w-5 h-5 text-white" />
                             </div>
-                            <span className="text-xl font-bold text-foreground">eLearning</span>
+                            <span className="text-xl font-bold text-foreground">algeria-bootcamp</span>
                         </div>
                         <p className="text-muted-foreground text-sm leading-relaxed">
                             Empowering learners worldwide with expert-led courses and comprehensive educational resources.
