@@ -20,6 +20,8 @@ const Header = () => {
     { label: 'Courses', href: '/Courses' },
     { label: 'Categories', href: '/Categories' },
     { label: 'About', href: '/About' },
+    { label: 'Dashboard', href: '/stud-dashboard' },
+    { label: 'Mycourses', href: '/stud-mycourses' },
   ];
 
   return (
