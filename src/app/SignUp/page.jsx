@@ -60,7 +60,7 @@ const SignUp = () => {
                             <div className="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center">
                                 <BookOpen className="w-6 h-6 text-white" />
                             </div>
-                            <span className="text-2xl font-bold text-foreground">algeria-bootcamp</span>
+                            <span className="text-2xl font-bold text-foreground">dz-campus</span>
                         </div>
                         <h2 className="text-3xl font-bold text-foreground">Create your account</h2>
                         <p className="mt-2 text-muted-foreground">
